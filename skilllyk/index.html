@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="header-logo.svg" alt="">
+        </div>
+        <div class="right">
+          
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+          <form>
+            <h2>Log in to your Skrill account</h2>
+            <p style="text-align: center;">Don't have an account? <a href="#"> Register</a></p>
+            <br>
+            <div class="input-group">
+              <!-- <label for="txtUserName">User Name</label> -->
+              <input type="text" class="form-control" name="txtUserName" placeholder="Email" required/>
+            </div>
+            <br>
+            <div class="input-group">
+                
+              <!-- <label for="txtPassword">Password</label> -->
+              <input type="password" id="txtPassword" class="form-control" name="txtPassword" placeholder="password" required/>
+              <button type="button" id="btnToggle" class="toggle"><i id="eyeIcon" class="fa fa-eye"></i></button>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block">Log in</button>
+            <br>
+            <a id="forget" style="color: #532357;" href="#">Forget Your password </a>
+          </form>
+          
+        </div>
+
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>
